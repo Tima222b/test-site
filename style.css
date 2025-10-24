@@ -74,7 +74,7 @@ header {
     margin-right:auto;
 }
 
-
+/*
 .phone-img {
     position:absolute;
     z-index:2;
@@ -116,8 +116,37 @@ header {
         background-position:110% 10%;
         background-size:620px auto;
     }
+   }*/
+
+   .image-telefon {
+    width:850px;
+    height:auto;
+    z-index:2;
+    position:absolute;
+    right:-5%;
+    top:-10%;
    }
 
+   @media(max-width:1400px) {
+        .image-telefon {
+            width:700px;
+            top:-8%;
+        }
+   }
+
+   @media(max-width:1200px) {
+        .image-telefon {
+            width:600px;
+            top:-3%;
+        }
+   }
+
+   @media(max-width:992px) {
+        .image-telefon {
+            width:550px;
+            top:-3%;
+        }
+   }
 
 .logo {
     width:clamp(157px, calc(5.06vw + 138.76px), 236px);
